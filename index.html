@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Moveintrack — Journey Management Center (JMC): real-time tracking, driving policy compliance, and continuous improvement for fleet operations.">
+  <title>Moveintrack — Journey Management Center &amp; fleet safety</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skipToContent">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a class="logo" href="https://moveintrack.com/">
+        <img class="logo-img" src="assets/logo.png" width="220" height="64" data-i18n-alt="logoAlt" alt="Moveintrack — SMART FLEET &amp; JOURNEY MANAGEMENT">
+      </a>
+
+      <nav class="main-nav" id="mainNav" data-i18n-aria="navPrimary" aria-label="Primary navigation">
+        <ul>
+          <li><a href="#hero" data-i18n="navHome">Home</a></li>
+          <li><a href="#jmc-overview" data-i18n="navJmcOverview">JMC overview</a></li>
+          <li><a href="#jmc-realtime" data-i18n="navJmcRealtime">Real-time tracking</a></li>
+          <li><a href="#experience" data-i18n="navExperience">Our experience</a></li>
+          <li><a href="#programs" data-i18n="navPrograms">Programs</a></li>
+          <li><a href="#about" data-i18n="navAbout">About</a></li>
+          <li><a href="#contact" data-i18n="navContact">Contact</a></li>
+        </ul>
+        <div class="nav-actions mobile-only-nav-cta">
+          <a class="btn btn-primary" href="#cta" data-i18n="bookDemo">Book demo</a>
+        </div>
+      </nav>
+
+      <div class="nav-actions">
+        <div class="lang-switch" role="group" aria-labelledby="mit-lang-label">
+          <span id="mit-lang-label" class="visually-hidden" data-i18n="langSwitcherLabel">Language</span>
+          <button type="button" class="lang-btn lang-btn--single" id="langToggle" aria-label="Show site in Arabic">عربي</button>
+        </div>
+        <a class="btn btn-primary desktop-only-inline" href="#cta" data-i18n="bookDemo">Book demo</a>
+        <button class="nav-toggle" type="button" id="navToggle" aria-expanded="false" aria-controls="mainNav" data-i18n-aria="navOpenMenu" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="overlay" id="navOverlay" hidden></div>
+
+  <main id="main">
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <p class="hero-kicker" data-i18n="heroKicker">Journey Management Center (JMC)</p>
+        <h1 id="hero-title" class="hero-title-type" dir="ltr" aria-label="Moveintrack"><span class="hero-brand-navy" id="heroTitlePart1"></span><span class="hero-brand-bright" id="heroTitlePart2"></span><span class="hero-type-cursor" aria-hidden="true"></span></h1>
+        <p class="tagline" data-i18n="heroTagline">Real-time journey monitoring, driving policy compliance (including IOGP-aligned programs), and continuous improvement in driver behavior—end to end.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact" data-i18n="heroContact">Contact us</a>
+          <a class="btn btn-hero-outline" href="assets/JMC-2026.pdf" download data-i18n="heroPdf">JMC 2026 overview (PDF)</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section jmc-section jmc-overview-section" id="jmc-overview" aria-labelledby="jmc-overview-title">
+      <div class="jmc-overview-bg" aria-hidden="true"></div>
+      <div class="container jmc-overview-inner">
+        <header class="jmc-overview-header">
+          <p class="jmc-overview-eyebrow" data-i18n="jmcOverviewEyebrow">Three strategic outcomes</p>
+          <div class="jmc-page-title jmc-page-title--overview">
+            <h2 id="jmc-overview-title" data-i18n="jmcOverviewTitle">Journey Management Center: roles and responsibilities</h2>
+          </div>
+        </header>
+        <div class="jmc-objectives jmc-objectives--cards" role="list">
+          <div class="jmc-objective-card" role="listitem">
+            <span class="jmc-objective-num" aria-hidden="true">01</span>
+            <span class="jmc-objective-text" data-i18n="jmcObj1">Real-time monitoring and tracking</span>
+          </div>
+          <div class="jmc-objective-card" role="listitem">
+            <span class="jmc-objective-num" aria-hidden="true">02</span>
+            <span class="jmc-objective-text" data-i18n="jmcObj2">Ensuring driving policies are implemented</span>
+          </div>
+          <div class="jmc-objective-card" role="listitem">
+            <span class="jmc-objective-num" aria-hidden="true">03</span>
+            <span class="jmc-objective-text" data-i18n="jmcObj3">Driving behavior is continuously improved</span>
+          </div>
+        </div>
+        <div class="jmc-pillars jmc-pillars--overview">
+          <article class="jmc-pillar-card">
+            <div class="jmc-pillar-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3 data-i18n="pillar1Title">Command center / real-time tracking</h3>
+            <ul>
+              <li data-i18n="pillar1Li1">Real-time tracking</li>
+              <li data-i18n="pillar1Li2">Critical alerts</li>
+              <li data-i18n="pillar1Li3">Driver late to check-in</li>
+              <li data-i18n="pillar1Li4">Emergency response action</li>
+            </ul>
+          </article>
+          <article class="jmc-pillar-card">
+            <div class="jmc-pillar-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+            </div>
+            <h3 data-i18n="pillar2Title">Data management services</h3>
+            <ul>
+              <li data-i18n="pillar2Li1">Management of IDs</li>
+              <li data-i18n="pillar2Li2">Fleet data management</li>
+              <li data-i18n="pillar2Li3">Driver certifications and license records</li>
+            </ul>
+          </article>
+          <article class="jmc-pillar-card">
+            <div class="jmc-pillar-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3M11 8v6M8 11h6"/></svg>
+            </div>
+            <h3 data-i18n="pillar3Title">Technology / solutions</h3>
+            <ul>
+              <li data-i18n="pillar3Li1">Journey management system</li>
+              <li data-i18n="pillar3Li2">Driver point system</li>
+              <li data-i18n="pillar3Li3">Data analysis and reporting / vehicle utilization</li>
+            </ul>
+          </article>
+        </div>
+        <div class="jmc-ribbon-banner">
+          <span class="jmc-ribbon-chip" data-i18n="ribbonCx">Customer experience</span>
+          <span class="jmc-ribbon-plus" data-i18n="ribbonPlus" aria-hidden="true">+</span>
+          <span class="jmc-ribbon-chip jmc-ribbon-chip--accent" data-i18n="ribbonDigital">Digital capabilities</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section jmc-section jmc-realtime-section" id="jmc-realtime" aria-labelledby="jmc-realtime-title">
+      <div class="jmc-realtime-bg" aria-hidden="true"></div>
+      <div class="container jmc-realtime-inner">
+        <header class="jmc-realtime-head jmc-page-title jmc-page-title--on-dark">
+          <p class="jmc-badge jmc-badge--realtime" data-i18n="jmcRealtimeBadge">JMC / real-time tracking services</p>
+          <h2 id="jmc-realtime-title" data-i18n="jmcRealtimeTitle">Journey Management Center: roles and responsibilities</h2>
+        </header>
+        <div class="jmc-realtime-grid">
+          <div class="jmc-gradient-panel">
+            <p data-i18n="jmcRealtimeP1">Our JMC monitors journeys in real time and ensures compliance with safe driving standards. Using live feeds from the vehicle monitoring system together with phone contact with drivers, we verify that safe driving practices are being followed.</p>
+            <p class="jmc-gradient-note" data-i18n-html="jmcRealtimeP2Html">Aligned with objectives including <strong>ensuring driving policies are implemented</strong> (for example IOGP-style frameworks) and <strong>continuous improvement in driving behavior</strong>.</p>
+          </div>
+          <div class="jmc-realtime-media-frame">
+            <div class="jmc-realtime-media" role="img" data-i18n-aria="realtimeImgAria" aria-label="Driver at the wheel — operational supervision concept"></div>
+            <span class="jmc-realtime-media-tag" data-i18n="jmcRealtimeMediaTag">Live monitoring</span>
+          </div>
+        </div>
+        <div class="jmc-process-block">
+          <h3 class="jmc-realtime-steps-head" id="jmc-realtime-steps-heading" data-i18n="procAriaLabel">Journey lifecycle</h3>
+          <ol class="jmc-process" aria-labelledby="jmc-realtime-steps-heading">
+          <li class="jmc-process-step"><span class="jmc-process-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2M9 5a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2"/><path d="M9 12h6M9 16h4"/></svg></span><span class="jmc-process-label" data-i18n="proc1">Trip planning / booking</span></li>
+          <li class="jmc-process-step"><span class="jmc-process-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 11h14l-1.5 5H6.5L5 11zm2-3h10l1 3H6l1-3z"/></svg></span><span class="jmc-process-label" data-i18n="proc2">Depart</span></li>
+          <li class="jmc-process-step"><span class="jmc-process-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 7l6 6 4-4 8 8"/><path d="M21 10V7h-3"/></svg></span><span class="jmc-process-label" data-i18n="proc3">Ongoing</span></li>
+          <li class="jmc-process-step"><span class="jmc-process-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-6-4.35-6-10a6 6 0 1 1 12 0c0 5.65-6 10-6 10z"/><circle cx="12" cy="11" r="2.5"/></svg></span><span class="jmc-process-label" data-i18n="proc4">Suspension, arrival, termination</span></li>
+          <li class="jmc-process-step"><span class="jmc-process-icon jmc-process-icon--alert" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0zM12 9v4M12 17h.01"/></svg></span><span class="jmc-process-label" data-i18n="proc5">Critical event</span></li>
+          <li class="jmc-process-step"><span class="jmc-process-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32 1.41 1.41M2 12h2m16 0h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg></span><span class="jmc-process-label" data-i18n="proc6">Observation and intervention</span></li>
+        </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="experience" aria-labelledby="experience-title">
+      <div class="container experience-wrap">
+        <div class="experience-card">
+          <h2 class="experience-pill" id="experience-title" data-i18n="experienceTitle">Our experience</h2>
+          <p class="experience-lead" data-i18n="experienceLead">7+ years of experience in journey management and operations.</p>
+          <ul class="experience-list">
+            <li data-i18n="expLi0">Successfully managed journey operations for one of the major multinational companies in the oil and gas sector.</li>
+            <li data-i18n="expLi1">Hands-on experience overseeing journey management across 30 countries worldwide.</li>
+            <li data-i18n="expLi2">Strong background with diverse regulations, country-specific rules, and advanced tracking systems.</li>
+            <li data-i18n="expLi3">Proven capability in designing, implementing, and optimizing full journey management frameworks.</li>
+            <li data-i18n="expLi4">Experience in high-risk and heavily regulated environments with a focus on safety compliance.</li>
+            <li data-i18n="expLi5">We create and follow up on standard operating procedures (SOPs).</li>
+            <li data-i18n="expLi6">Day-to-day follow-up on operations and implementation of company driving procedures and policies.</li>
+          </ul>
+        </div>
+        <aside class="certs-card" aria-labelledby="certs-title">
+          <h3 id="certs-title" data-i18n="certsTitle">Certifications</h3>
+          <ul>
+            <li data-i18n="cert0">Lean Six Sigma — Yellow Belt</li>
+            <li data-i18n="cert1">OSHA — Fleet Safety Management</li>
+            <li data-i18n="cert2">HSE Levels 1 and 2</li>
+            <li data-i18n="cert3">Defensive Driving Course</li>
+            <li data-i18n="cert4">NEBOSH IGC — ongoing</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section jmc-highlights" id="programs" aria-labelledby="programs-title">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="programs-title" data-i18n="programsTitle">Operational programs</h2>
+          <p data-i18n="programsLead">Examples of how the control center adapts to seasons, risk geography, and en-route events—drawn from live journey management practice.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <h3 data-i18n="prog1Title">Seasonal journey planning</h3>
+            <p data-i18n="prog1Text">During winter or storms we reinforce driver awareness with notifications: check brakes after standing water, reduce speed, and increase following distance.</p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="prog2Title">Ramadan and high-risk areas</h3>
+            <p data-i18n="prog2Text">Targeted driving plans for exceptional periods, plus additional approvals and assessments where routes carry higher driving or security risk.</p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="prog3Title">En-route intervention</h3>
+            <p data-i18n="prog3Text">Critical alerts such as harsh braking, overspeeding, panic alarms, no-go zones, and accidents flow to the center where operators intervene; major events trigger structured emergency response and post-incident analysis.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section" id="cta" aria-labelledby="cta-title">
+      <div class="container">
+        <h2 id="cta-title" data-i18n="ctaTitle">Discuss a JMC operating model for your fleet</h2>
+        <a class="btn btn-primary" href="#contact" data-i18n="ctaBtn">Talk to operations</a>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="about" aria-labelledby="about-title">
+      <div class="container about-prose">
+        <h2 id="about-title" data-i18n="aboutTitle">Who we are</h2>
+        <p data-i18n-html="aboutP1"><span class="mit-brand" dir="ltr">Moveintrack</span> delivers comprehensive journey management—from trip booking through depart checks, ongoing monitoring, suspension and arrival handling, to closure and learning. Our team combines operational leadership, journey management standards, compliant tracking systems, and multi-region coordination.</p>
+        <p class="about-muted"><span data-i18n="aboutDeckLabel">Project reference deck:</span> <a href="assets/JMC-2026.pdf" download data-i18n="aboutDeckLink">JMC-2026.pdf</a></p>
+      </div>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-block">
+        <h2 id="contact-title" data-i18n="contactTitle">Contact</h2>
+        <p class="contact-lead" data-i18n="contactLead">Reach the journey management desk for pilots, operating models, and integration with your vehicle monitoring program.</p>
+        <ul class="contact-list">
+          <!-- <li><strong data-i18n="labelEmail">Email:</strong> <a href="mailto:info@moveintrack.com">info@moveintrack.com</a></li>
+          <li><strong data-i18n="labelPhone">Phone:</strong> <a href="tel:+201000106810">+20 100 010 6810</a></li>
+          <li><strong data-i18n="labelPhone">Phone:</strong> <a href="tel:+201022747131">+20 102 274 7131</a></li> -->
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3 data-i18n="footerAboutTitle">About</h3>
+          <ul>
+            <li><a href="#about" data-i18n="footerWhoWeAre">Who we are</a></li>
+            <li><a href="#experience" data-i18n="footerExperience">Experience</a></li>
+            <li><a href="#programs" data-i18n="footerPrograms">Programs</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3 data-i18n="footerFocusTitle">Focus</h3>
+          <ul>
+            <li><a href="#jmc-overview" data-i18n="footerJmcOverview">JMC overview</a></li>
+            <li><a href="#jmc-realtime" data-i18n="footerRealtime">Real-time tracking</a></li>
+            <li><a href="#programs" data-i18n="footerOpPrograms">Operational programs</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3 data-i18n="footerResourcesTitle">Resources</h3>
+          <ul>
+            <li><a href="assets/JMC-2026.pdf" download data-i18n="footerDeckPdf">JMC-2026 deck (PDF)</a></li>
+            <li><a href="#experience" data-i18n="footerExpCerts">Experience &amp; certifications</a></li>
+            <li><a href="#contact" data-i18n="footerContactOps">Contact operations</a></li>
+          </ul>
+        </div>
+        <div class="footer-col footer-contact">
+          <h3 data-i18n="footerContactTitle">Contact</h3>
+          <p><a href="mailto:info@moveintrack.com">info@moveintrack.com</a></p>
+          <p><a href="tel:+201000106810">+20 100 010 6810</a></p>
+          <p><a href="tel:+201022747131">+20 102 274 7131</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p id="footerLegalLine" class="footer-copy" data-i18n-html="footerCopyrightHtml">&copy; <span id="mit-year-slot"></span> <span class="mit-brand" dir="ltr">Moveintrack</span>. All rights reserved. · <a href="https://moveintrack.com/" style="color: inherit;">moveintrack.com</a></p>
+        <div class="footer-legal">
+          <a href="#" data-i18n="terms">Terms</a>
+          <a href="#" data-i18n="privacy">Privacy</a>
+          <a href="#" data-i18n="dataProcessing">Data processing</a>
+          <a href="#" data-i18n="security">Security</a>
+          <a href="#" data-i18n="cookies">Cookies</a>
+        </div>
+        <div class="social" data-i18n-aria="socialGroup" aria-label="Social links">
+          <a href="#" data-i18n-aria="socialFacebook" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+          <a href="#" data-i18n-aria="socialTwitter" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+          <a href="#" data-i18n-aria="socialYouTube" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+          <a href="#" data-i18n-aria="socialLinkedIn" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a class="fab-wa" href="https://wa.me/201000106810" target="_blank" rel="noopener noreferrer" data-i18n-aria="fabWhatsApp" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.881 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="i18n-ui.js"></script>
+  <script src="i18n-content.js"></script>
+  <script src="main.js" defer></script>
+</body>
+</html>
