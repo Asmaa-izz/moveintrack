@@ -37,7 +37,7 @@
       footerJmcOverview: "JMC overview",
       footerRealtime: "Real-time tracking",
       footerOpPrograms: "Operational programs",
-      footerExpCerts: "Experience & certifications",
+      footerExpCerts: "Experience",
       footerContactOps: "Contact operations",
       footerCopyrightHtml:
         '© {{year}} <span class="mit-brand" dir="ltr">Moveintrack</span>. All rights reserved. · <a href="https://moveintrack.com/" style="color: inherit;">moveintrack.com</a>',
@@ -87,7 +87,7 @@
       footerJmcOverview: "نظرة على JMC",
       footerRealtime: "التتبع اللحظي",
       footerOpPrograms: "برامج تشغيلية",
-      footerExpCerts: "الخبرة والشهادات",
+      footerExpCerts: "الخبرة",
       footerContactOps: "تواصل مع العمليات",
       footerCopyrightHtml:
         '© {{year}} <span class="mit-brand" dir="ltr">موفين تراك</span>. جميع الحقوق محفوظة. · <a href="https://moveintrack.com/" style="color: inherit;">moveintrack.com</a>',
