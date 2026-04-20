@@ -37,7 +37,6 @@
       footerJmcOverview: "JMC overview",
       footerRealtime: "Real-time tracking",
       footerOpPrograms: "Operational programs",
-      footerDeckPdf: "JMC-2026 deck (PDF)",
       footerExpCerts: "Experience & certifications",
       footerContactOps: "Contact operations",
       footerCopyrightHtml:
@@ -88,7 +87,6 @@
       footerJmcOverview: "نظرة على JMC",
       footerRealtime: "التتبع اللحظي",
       footerOpPrograms: "برامج تشغيلية",
-      footerDeckPdf: "عرض JMC-2026 (PDF)",
       footerExpCerts: "الخبرة والشهادات",
       footerContactOps: "تواصل مع العمليات",
       footerCopyrightHtml:

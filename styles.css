@@ -812,8 +812,8 @@ a:hover {
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  background: linear-gradient(165deg, #f0f9ff 0%, #ffffff 40%, #ecf8fc 100%);
-  color: var(--color-text);
+  background: linear-gradient(168deg, #012a3d 0%, #001525 42%, #063445 100%);
+  color: #e2e8f0;
 }
 
 .jmc-realtime-bg {
@@ -822,16 +822,17 @@ a:hover {
   pointer-events: none;
   z-index: 0;
   background:
-    radial-gradient(ellipse 85% 50% at 100% 0%, rgba(0, 153, 204, 0.12), transparent 52%),
-    radial-gradient(ellipse 70% 45% at 0% 100%, rgba(77, 182, 172, 0.1), transparent 48%);
+    radial-gradient(ellipse 100% 80% at 50% -20%, rgba(0, 153, 204, 0.22), transparent 55%),
+    radial-gradient(ellipse 60% 50% at 100% 100%, rgba(77, 182, 172, 0.12), transparent 45%),
+    radial-gradient(ellipse 50% 40% at 0% 80%, rgba(0, 132, 255, 0.08), transparent 40%);
 }
 
 .jmc-realtime-bg::after {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%230099cc' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-  opacity: 0.65;
+  opacity: 0.35;
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M20 20h20v20H20zM0 0h20v20H0z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
 .jmc-realtime-inner {
@@ -860,17 +861,7 @@ a:hover {
   font-weight: 700;
   letter-spacing: -0.02em;
   text-wrap: balance;
-  background: linear-gradient(120deg, var(--color-primary) 0%, #0c4a6e 55%, var(--jmc-blue) 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
-
-@supports not (background-clip: text) {
-  .jmc-realtime-head h2 {
-    color: var(--color-primary);
-    background: none;
-  }
+  text-shadow: 0 2px 28px rgba(0, 0, 0, 0.45);
 }
 
 .jmc-badge {
@@ -890,11 +881,12 @@ a:hover {
 .jmc-badge--realtime {
   margin: 0;
   order: -1;
-  background: linear-gradient(135deg, var(--jmc-blue), #0284c7);
-  border: 1px solid rgba(0, 153, 204, 0.35);
+  background: linear-gradient(135deg, rgba(0, 153, 204, 0.95), #0284c7);
+  border: 1px solid rgba(255, 255, 255, 0.22);
   box-shadow:
-    0 4px 16px rgba(0, 153, 204, 0.22),
-    inset 0 1px 0 rgba(255, 255, 255, 0.25);
+    0 0 0 1px rgba(0, 0, 0, 0.15),
+    0 8px 24px rgba(0, 153, 204, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 
 .jmc-realtime-grid {
@@ -955,10 +947,10 @@ a:hover {
   position: relative;
   padding: 3px;
   border-radius: 22px;
-  background: linear-gradient(135deg, rgba(0, 153, 204, 0.35), rgba(77, 182, 172, 0.28), rgba(255, 255, 255, 0.85));
+  background: linear-gradient(135deg, rgba(0, 153, 204, 0.85), rgba(77, 182, 172, 0.55), rgba(255, 255, 255, 0.12));
   box-shadow:
-    0 12px 40px rgba(15, 23, 42, 0.08),
-    inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    0 24px 56px rgba(0, 0, 0, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.25);
 }
 
 .jmc-realtime-media {
@@ -1034,7 +1026,7 @@ a:hover {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   text-align: center;
-  color: var(--color-text-muted);
+  color: rgba(148, 163, 184, 0.95);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1047,7 +1039,7 @@ a:hover {
   flex: 1;
   max-width: 6rem;
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(0, 153, 204, 0.22), transparent);
+  background: linear-gradient(90deg, transparent, rgba(148, 163, 184, 0.45), transparent);
 }
 
 .jmc-process {
@@ -1070,10 +1062,10 @@ a:hover {
   height: 2px;
   background: linear-gradient(
     90deg,
-    rgba(0, 153, 204, 0.08),
-    rgba(0, 153, 204, 0.2) 22%,
-    rgba(77, 182, 172, 0.18) 78%,
-    rgba(0, 153, 204, 0.08)
+    rgba(0, 153, 204, 0.15),
+    rgba(224, 242, 241, 0.35) 20%,
+    rgba(224, 242, 241, 0.35) 80%,
+    rgba(0, 153, 204, 0.15)
   );
   border-radius: 2px;
   z-index: 0;
@@ -1094,24 +1086,24 @@ a:hover {
   width: 58px;
   height: 58px;
   border-radius: 50%;
-  background: linear-gradient(160deg, #ffffff, rgba(224, 242, 241, 0.95));
-  border: 2px solid rgba(0, 153, 204, 0.22);
-  color: var(--jmc-blue);
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.05));
+  border: 2px solid rgba(224, 242, 241, 0.42);
+  color: #99f6e4;
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow:
-    0 4px 14px rgba(0, 153, 204, 0.1),
-    inset 0 1px 0 rgba(255, 255, 255, 0.95);
+    0 4px 16px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
   transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
 .jmc-process-step:hover .jmc-process-icon {
   transform: translateY(-3px);
-  border-color: rgba(0, 153, 204, 0.38);
+  border-color: rgba(153, 246, 228, 0.65);
   box-shadow:
-    0 8px 22px rgba(0, 153, 204, 0.18),
-    inset 0 1px 0 rgba(255, 255, 255, 1);
+    0 8px 24px rgba(0, 153, 204, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 
 .jmc-process-icon svg {
@@ -1120,13 +1112,13 @@ a:hover {
 }
 
 .jmc-process-icon--alert {
-  color: #b91c1c;
-  border-color: rgba(248, 113, 113, 0.45);
-  background: linear-gradient(160deg, #fff1f2, rgba(254, 226, 226, 0.65));
+  color: #fecaca;
+  border-color: rgba(248, 113, 113, 0.55);
+  background: linear-gradient(160deg, rgba(248, 113, 113, 0.2), rgba(248, 113, 113, 0.06));
 }
 
 .jmc-process-step:hover .jmc-process-icon--alert {
-  border-color: rgba(239, 68, 68, 0.45);
+  border-color: rgba(252, 165, 165, 0.75);
 }
 
 .jmc-process-label {
@@ -1135,7 +1127,7 @@ a:hover {
   text-transform: uppercase;
   letter-spacing: 0.04em;
   line-height: 1.38;
-  color: var(--color-text);
+  color: rgba(241, 245, 249, 0.94);
   max-width: 11rem;
 }
 

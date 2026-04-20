@@ -10,7 +10,6 @@
       heroTagline:
         "Real-time journey monitoring, driving policy compliance (including IOGP-aligned programs), and continuous improvement in driver behavior—end to end.",
       heroContact: "Contact us",
-      heroPdf: "JMC 2026 overview (PDF)",
       jmcOverviewTitle: "Journey Management Center: roles and responsibilities",
       jmcOverviewEyebrow: "Three strategic outcomes",
       jmcObj1: "Real-time monitoring and tracking",
@@ -80,8 +79,6 @@
       aboutTitle: "Who we are",
       aboutP1:
         '<span class="mit-brand" dir="ltr">Moveintrack</span> delivers comprehensive journey management—from trip booking through depart checks, ongoing monitoring, suspension and arrival handling, to closure and learning. Our team combines operational leadership, journey management standards, compliant tracking systems, and multi-region coordination.',
-      aboutDeckLabel: "Project reference deck:",
-      aboutDeckLink: "JMC-2026.pdf",
       contactTitle: "Contact",
       contactLead:
         "Reach the journey management desk for pilots, operating models, and integration with your vehicle monitoring program.",
@@ -93,7 +90,6 @@
       heroTagline:
         "مراقبة الرحلات لحظياً، والالتزام بسياسات القيادة (بما في ذلك برامج متوافقة مع IOGP)، وتحسين مستمر لسلوك السائقين — من البداية للنهاية.",
       heroContact: "تواصل معنا",
-      heroPdf: "نظرة عامة على JMC 2026 (PDF)",
       jmcOverviewTitle: "مركز إدارة الرحلات: الأدوار والمسؤوليات",
       jmcOverviewEyebrow: "ثلاثة مخرجات استراتيجية",
       jmcObj1: "المراقبة والتتبع في الوقت الفعلي",
@@ -163,8 +159,6 @@
       aboutTitle: "من نحن",
       aboutP1:
         'يوفر <span class="mit-brand" dir="ltr">موفين تراك</span> إدارة رحلات شاملة — من حجز الرحلة وفحوصات المغادرة، عبر المراقبة المستمرة، ومعالجة التعليق والوصول، حتى الإغلاق والتعلم. يجمع فريقنا بين القيادة التشغيلية ومعايير إدارة الرحلات وأنظمة التتبع المتوافقة والتنسيق متعدد المناطق.',
-      aboutDeckLabel: "مرجع المشروع:",
-      aboutDeckLink: "JMC-2026.pdf",
       contactTitle: "اتصل بنا",
       contactLead:
         "تواصل مع مكتب إدارة الرحلات للتجارب التجريبية ونماذج التشغيل والربط مع برنامج مراقبة المركبات لديك.",
