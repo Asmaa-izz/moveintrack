@@ -53,6 +53,7 @@
 
   <main id="main">
     <section class="hero" id="hero" aria-labelledby="hero-title">
+      <canvas class="hero-particles-canvas" aria-hidden="true"></canvas>
       <div class="container">
         <p class="hero-kicker" data-i18n="heroKicker">Journey Management Center (JMC)</p>
         <h1 id="hero-title" class="hero-title-type" dir="ltr" aria-label="Moveintrack"><span class="hero-brand-navy" id="heroTitlePart1"></span><span class="hero-brand-bright" id="heroTitlePart2"></span><span class="hero-type-cursor" aria-hidden="true"></span></h1>
@@ -134,7 +135,7 @@
     <section class="section jmc-section jmc-realtime-section" id="jmc-realtime" aria-labelledby="jmc-realtime-title">
       <div class="jmc-realtime-bg" aria-hidden="true"></div>
       <div class="container jmc-realtime-inner">
-        <header class="jmc-realtime-head jmc-page-title jmc-page-title--on-dark">
+        <header class="jmc-realtime-head jmc-page-title">
           <p class="jmc-badge jmc-badge--realtime" data-i18n="jmcRealtimeBadge">JMC / real-time tracking services</p>
           <h2 id="jmc-realtime-title" data-i18n="jmcRealtimeTitle">Journey Management Center: roles and responsibilities</h2>
         </header>
@@ -300,6 +301,7 @@
 
   <script src="i18n-ui.js"></script>
   <script src="i18n-content.js"></script>
+  <script src="hero-particles.js" defer></script>
   <script src="main.js" defer></script>
 </body>
 </html>

@@ -236,4 +236,10 @@
 
   applyLanguage(getLang());
   runHeroTitleTypewriter();
+
+  var heroSection = document.getElementById("hero");
+  var heroCanvas = heroSection && heroSection.querySelector(".hero-particles-canvas");
+  if (heroCanvas && typeof window.createHeroParticleNetwork === "function") {
+    window.createHeroParticleNetwork(heroCanvas).start();
+  }
 })();
